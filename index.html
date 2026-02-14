@@ -1,0 +1,786 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>💝 Selamat Hari Valentine, Jelita 💝</title>
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    
+    <!-- Font Awesome 6 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    
+    <!-- Google Fonts Premium -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Montserrat:wght@300;400;600&family=Sacramento&display=swap" rel="stylesheet">
+    
+    <!-- AOS Animation Library -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+    <!-- 🌟 PARTICLE BACKGROUND PREMIUM -->
+    <div id="particles-js"></div>
+    
+    <!-- 💖 FLOATING HEAVEN HEARTS -->
+    <div class="floating-hearts">
+        <div class="heart-3d"></div>
+        <div class="heart-3d"></div>
+        <div class="heart-3d"></div>
+        <div class="heart-3d"></div>
+        <div class="heart-3d"></div>
+        <div class="heart-3d"></div>
+        <div class="heart-3d"></div>
+        <div class="heart-3d"></div>
+    </div>
+    
+    <!-- ✨ GLITTER SPARKLES -->
+    <div class="sparkles"></div>
+
+    <!-- 🎀 MAIN CONTAINER -->
+    <div class="elegant-container">
+        
+        <!-- 🏆 HEADER SECTION -->
+        <div class="hero-section" data-aos="fade-down" data-aos-duration="1500">
+            <div class="premium-frame">
+                <div class="photo-3d">
+                    <div class="photo-front">
+                        <img src="assets/foto-couple.jpeg" alt="Foto Kita Berdua" id="couple-photo">
+                        <div class="photo-glow"></div>
+                    </div>
+                    <div class="photo-back">
+                        <i class="fas fa-heart"></i>
+                        <span>I ❤️ U</span>
+                    </div>
+                </div>
+                <div class="crown">
+                    <i class="fas fa-crown"></i>
+                </div>
+            </div>
+            
+            <h1 class="elegant-title">
+                <span class="title-word">Happy</span>
+                <span class="title-word">Valentine's</span>
+                <span class="title-word">Day</span>
+            </h1>
+            
+            <div class="name-badge">
+                <i class="fas fa-ribbon"></i>
+                <p class="subtitle-elegant">Untuk Sayangku Cinta Ratu Keabadian, <span id="nama-pacar" class="highlight-name">Jelita Restianty nyoy</span></p>
+                <i class="fas fa-ribbon"></i>
+            </div>
+            
+            <div class="romance-meter">
+                <div class="meter-label">
+                    <i class="fas fa-star"></i>
+                    <span>Love Level</span>
+                    <i class="fas fa-star"></i>
+                </div>
+                <div class="love-progress">
+                    <div class="progress-bar" style="width: 100%">
+                        <span>∞ TAK TERBATAS ∞</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- ⏰ COUNTDOWN TIMER -->
+        <div class="countdown-premium" data-aos="zoom-in" data-aos-duration="1000">
+            <div class="glass-card">
+                <div class="countdown-header">
+                    <i class="fas fa-clock"></i>
+                    <h3>Menuju Momen Spesial</h3>
+                    <i class="fas fa-heart"></i>
+                </div>
+                
+                <div class="timer-elegant">
+                    <div class="time-unit">
+                        <div class="time-circle">
+                            <span id="days" class="time-number">00</span>
+                            <svg class="progress-ring" width="120" height="120">
+                                <circle class="progress-ring__circle" stroke="white" stroke-width="4" fill="transparent" r="52" cx="60" cy="60"/>
+                            </svg>
+                        </div>
+                        <span class="time-label">Hari</span>
+                    </div>
+                    
+                    <div class="time-unit">
+                        <div class="time-circle">
+                            <span id="hours" class="time-number">00</span>
+                            <svg class="progress-ring" width="120" height="120">
+                                <circle class="progress-ring__circle" stroke="white" stroke-width="4" fill="transparent" r="52" cx="60" cy="60"/>
+                            </svg>
+                        </div>
+                        <span class="time-label">Jam</span>
+                    </div>
+                    
+                    <div class="time-unit">
+                        <div class="time-circle">
+                            <span id="minutes" class="time-number">00</span>
+                            <svg class="progress-ring" width="120" height="120">
+                                <circle class="progress-ring__circle" stroke="white" stroke-width="4" fill="transparent" r="52" cx="60" cy="60"/>
+                            </svg>
+                        </div>
+                        <span class="time-label">Menit</span>
+                    </div>
+                    
+                    <div class="time-unit">
+                        <div class="time-circle">
+                            <span id="seconds" class="time-number">00</span>
+                            <svg class="progress-ring" width="120" height="120">
+                                <circle class="progress-ring__circle" stroke="white" stroke-width="4" fill="transparent" r="52" cx="60" cy="60"/>
+                            </svg>
+                        </div>
+                        <span class="time-label">Detik</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 💌 SURAT CINTA DIGITAL PREMIUM -->
+<div class="letter-premium" data-aos="fade-up" data-aos-duration="1200">
+    
+    <!-- AMPLOP 3D DENGAN ANIMASI -->
+    <div class="envelope-container">
+        <div class="envelope-3d" onclick="openLetter()">
+            <div class="envelope-front">
+                <div class="envelope-icon">
+                    <i class="fas fa-envelope-open-text"></i>
+                </div>
+                <div class="envelope-text">
+                    <p class="envelope-title">💌 Surat Cinta Digital</p>
+                    <span class="click-hint">Klik untuk membuka</span>
+                </div>
+                <div class="envelope-glow"></div>
+            </div>
+            <div class="envelope-back">
+                <div class="back-content">
+                    <i class="fas fa-heart"></i>
+                    <span>I ❤️ U</span>
+                </div>
+            </div>
+        </div>
+        <div class="envelope-shadow"></div>
+    </div>
+    
+    <!-- ISI SURAT ELEGAN -->
+    <div class="letter-elegant" id="letter">
+        <div class="letter-paper">
+            
+            <!-- WAX SEAL ANIMATED -->
+            <div class="wax-seal">
+                <i class="fas fa-heart"></i>
+            </div>
+            
+            <!-- HEADER SURAT -->
+            <div class="letter-header">
+                <h2 class="letter-title">My Dearest Love,</h2>
+                <div class="title-decoration">
+                    <span></span>
+                    <i class="fas fa-star"></i>
+                    <span></span>
+                </div>
+            </div>
+            
+            <!-- BODY SURAT -->
+            <div class="letter-body">
+                
+                <!-- GREETING -->
+                <div class="greeting-wrapper">
+                    <p class="greeting">Untuk <span class="highlight-name">Jelita Restianty</span> Tersayang,</p>
+                </div>
+                
+                <!-- PUISI ELEGAN -->
+                <div class="poem-container">
+                    <div class="poem">
+                        <div class="quote-mark left">"</div>
+                        <div class="poem-lines">
+                            <p>Di antara jutaan bintang di langit,</p>
+                            <p>Kamu adalah yang paling terang.</p>
+                            <p>Di antara ribuan bunga di taman,</p>
+                            <p>Kamu adalah mawar yang paling indah.</p>
+                        </div>
+                        <div class="quote-mark right">"</div>
+                    </div>
+                    <div class="poem-decoration">
+                        <i class="fas fa-heart"></i>
+                        <i class="fas fa-heart"></i>
+                        <i class="fas fa-heart"></i>
+                    </div>
+                </div>
+                
+                <!-- PESAN CINTA -->
+                <div class="message-wrapper">
+                    <p class="message">
+                        Selamat Hari Valentine, cintaku. Setiap detik bersamamu adalah anugerah terindah yang pernah Tuhan berikan. Kamu bukan hanya kekasih, tapi juga sahabat, rumah, dan segalanya. Aku bersyukur memilikimu, dan aku janji akan selalu menjaga hatimu.
+                    </p>
+                </div>
+                
+                <!-- MEMORY LANE -->
+                <div class="memory-lane">
+                    <div class="memory-icon">
+                        <i class="fas fa-camera-retro"></i>
+                    </div>
+                    <div class="memory-text">
+                        <span class="memory-quote">"Kenangan indah bersamamu adalah harta terbesarku"</span>
+                        <span class="memory-heart">❤️</span>
+                    </div>
+                </div>
+                
+                <!-- CLOSING -->
+                <div class="closing-wrapper">
+                    <p class="closing">Dengan segenap cinta,</p>
+                    <div class="signature-area">
+                        <p class="signature-elegant">Panca Ferdian Pamungkas</p>
+                        <div class="signature-decoration">
+                            <i class="fas fa-feather-alt"></i>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+            
+            <!-- DECORATIVE ELEMENTS -->
+            <div class="letter-decoration">
+                <div class="decoration-heart left"></div>
+                <div class="decoration-heart right"></div>
+                <div class="decoration-line top"></div>
+                <div class="decoration-line bottom"></div>
+            </div>
+            
+        </div>
+    </div>
+</div>
+
+        <!-- 🌹 REASONS WHY I LOVE YOU -->
+        <div class="reasons-premium" data-aos="fade-up" data-aos-duration="1200">
+            <div class="section-header">
+                <i class="fas fa-question-circle"></i>
+                <h2>Kenapa Aku Mencintaimu?</h2>
+                <div class="header-line"></div>
+            </div>
+            
+            <div class="reasons-slider">
+                <div class="reason-card-premium">
+                    <div class="card-front">
+                        <div class="card-icon">
+                            <i class="fas fa-sun"></i>
+                        </div>
+                        <h3>Senyuman</h3>
+                        <p>Menerangi hariku</p>
+                    </div>
+                    <div class="card-back">
+                        <p>Senyummu seperti matahari pagi, menghangatkan jiwa</p>
+                    </div>
+                </div>
+                
+                <div class="reason-card-premium">
+                    <div class="card-front">
+                        <div class="card-icon">
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h3>Kebaikan</h3>
+                        <p>Hatimu selembut sutra</p>
+                    </div>
+                    <div class="card-back">
+                        <p>Kamu selalu peduli, bahkan pada hal-hal kecil</p>
+                    </div>
+                </div>
+                
+                <div class="reason-card-premium">
+                    <div class="card-front">
+                        <div class="card-icon">
+                            <i class="fas fa-moon"></i>
+                        </div>
+                        <h3>Ketulusan</h3>
+                        <p>Cinta tanpa syarat</p>
+                    </div>
+                    <div class="card-back">
+                        <p>Kamu mencintaiku apa adanya, tanpa berpura-pura</p>
+                    </div>
+                </div>
+                
+                <div class="reason-card-premium">
+                    <div class="card-front">
+                        <div class="card-icon">
+                            <i class="fas fa-cloud"></i>
+                        </div>
+                        <h3>Ketenangan</h3>
+                        <p>Bersamamu damai</p>
+                    </div>
+                    <div class="card-back">
+                        <p>Di sampingmu, aku merasa pulang ke rumah</p>
+                    </div>
+                </div>
+                
+                <div class="reason-card-premium">
+                    <div class="card-front">
+                        <div class="card-icon">
+                            <i class="fas fa-bolt"></i>
+                        </div>
+                        <h3>Kekuatan</h3>
+                        <p>Menginspirasiku</p>
+                    </div>
+                    <div class="card-back">
+                        <p>Kamu membuatku ingin menjadi pribadi yang lebih baik</p>
+                    </div>
+                </div>
+                
+                <div class="reason-card-premium">
+                    <div class="card-front">
+                        <div class="card-icon">
+                            <i class="fas fa-rainbow"></i>
+                        </div>
+                        <h3>Keceriaan</h3>
+                        <p>Mewarnai hidupku</p>
+                    </div>
+                    <div class="card-back">
+                        <p>Hidup jadi penuh warna sejak bersamamu</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+<!-- 📸 ALBUM KENANGAN 100+ FOTO -->
+<div class="album-premium" data-aos="fade-up" data-aos-duration="1200">
+    
+    <!-- HEADER ALBUM -->
+    <div class="section-header">
+        <div class="header-icon">
+            <i class="fas fa-images"></i>
+            <i class="fas fa-heart"></i>
+            <i class="fas fa-images"></i>
+        </div>
+        <h2>📸 Album Kenangan Kita</h2>
+        <div class="header-line"></div>
+        <p class="header-subtitle">100+ momen indah yang telah kita lalui bersama ✨</p>
+        <div class="album-counter">
+            <span class="counter-number" id="photo-counter">124</span>
+            <span class="counter-text">Foto Kenangan</span>
+        </div>
+    </div>
+    
+    <!-- ALBUM GRID -->
+    <div class="album-grid" id="album-grid">
+        <!-- Foto akan di-generate oleh JavaScript -->
+    </div>
+    
+    <!-- LOAD MORE BUTTON -->
+    <div class="album-load-more">
+        <button class="load-more-btn" onclick="loadMorePhotos()">
+            <i class="fas fa-plus-circle"></i>
+            <span>Tampilkan Lebih Banyak</span>
+        </button>
+    </div>
+    
+    <!-- ALBUM STATS -->
+    <div class="album-stats">
+        <div class="stat-item">
+            <i class="fas fa-calendar-heart"></i>
+            <span class="stat-number">365</span>
+            <span class="stat-label">Hari Bersama</span>
+        </div>
+        <div class="stat-item">
+            <i class="fas fa-camera"></i>
+            <span class="stat-number">124</span>
+            <span class="stat-label">Foto Kenangan</span>
+        </div>
+        <div class="stat-item">
+            <i class="fas fa-heart"></i>
+            <span class="stat-number">∞</span>
+            <span class="stat-label">Cinta Tak Terbatas</span>
+        </div>
+    </div>
+    
+    <!-- ALBUM QUOTE -->
+    <div class="album-quote">
+        <i class="fas fa-quote-left"></i>
+        <p>Setiap foto menyimpan cerita, setiap cerita adalah bagian dari hatiku</p>
+        <i class="fas fa-quote-right"></i>
+    </div>
+</div>
+
+<!-- MEMORY MODAL UNTUK LIHAT FOTO BESAR -->
+<div id="memoryModal" class="memory-modal">
+    <div class="memory-modal-content">
+        <span class="close-memory-modal" onclick="closeMemoryModal()">&times;</span>
+        <div class="memory-modal-body">
+            <img id="modalMemoryImage" src="" alt="Memory">
+            <div id="modalMemoryInfo" class="modal-memory-info">
+                <h3 id="modalMemoryTitle"></h3>
+                <p id="modalMemoryDesc"></p>
+                <span id="modalMemoryDate"></span>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- FLOATING MEMORY -->
+<div id="floatingMemory" class="floating-memory"></div>
+
+        <!-- 🎵 MUSIC PLAYER PREMIUM - 3 LAGU -->
+<div class="music-premium" data-aos="fade-up" data-aos-duration="1000">
+    
+    <!-- VINYL RECORD -->
+    <div class="vinyl-record" onclick="toggleMusic()">
+        <div class="vinyl-label">
+            <i class="fas fa-heart"></i>
+        </div>
+        <div class="vinyl-arm"></div>
+        <div class="vinyl-ring"></div>
+    </div>
+    
+    <!-- MUSIC INFO -->
+    <div class="music-info">
+        <div class="music-badge">
+            <i class="fas fa-headphones-alt"></i>
+            <span>Now Playing</span>
+        </div>
+        
+        <p class="song-title" id="current-song-title">Penjaga Hati</p>
+        <p class="artist-name" id="current-artist">Nadhif Basalamah • Untuk Jelita ❤️</p>
+        
+        <!-- AUDIO VISUALIZER -->
+        <div class="audio-visualizer">
+            <div class="visualizer-bar"></div>
+            <div class="visualizer-bar"></div>
+            <div class="visualizer-bar"></div>
+            <div class="visualizer-bar"></div>
+            <div class="visualizer-bar"></div>
+        </div>
+        
+        <!-- MUSIC CONTROLS -->
+        <div class="music-controls-wrapper">
+            <button class="control-btn" onclick="prevSong()">
+                <i class="fas fa-backward"></i>
+            </button>
+            
+            <button class="play-btn" onclick="toggleMusic()">
+                <i class="fas fa-play" id="play-icon"></i>
+                <span id="btn-text">Play Penjaga Hati</span>
+            </button>
+            
+            <button class="control-btn" onclick="nextSong()">
+                <i class="fas fa-forward"></i>
+            </button>
+        </div>
+        
+        <!-- SONG QUEUE -->
+        <div class="song-queue">
+            <span class="queue-item active">🎵 Penjaga Hati</span>
+            <span class="queue-item">🎵 Teman Hidup</span>
+            <span class="queue-item">🎵 Sempurna</span>
+        </div>
+    </div>
+</div>
+
+<!-- AUDIO 1: PENJAGA HATI -->
+<audio id="song-penjaga-hati" loop preload="auto">
+    <source src="assets/penjaga-hati.mp3" type="audio/mpeg">
+    <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mpeg">
+</audio>
+
+<!-- AUDIO 2: TEMAN HIDUP -->
+<audio id="song-teman-hidup" loop preload="auto">
+    <source src="assets/teman-hidup-tulus.mp3" type="audio/mpeg">
+    <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-2.mp3" type="audio/mpeg">
+</audio>
+
+<!-- AUDIO 3: SEMPURNA -->
+<audio id="song-sempurna" loop preload="auto">
+    <source src="assets/sempurna.mp3" type="audio/mpeg">
+    <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-3.mp3" type="audio/mpeg">
+</audio>
+
+<!-- 💫 LOVE TIMELINE PREMIUM -->
+<div class="timeline-premium" data-aos="fade-left" data-aos-duration="1200">
+    
+    <!-- SECTION HEADER -->
+    <div class="section-header">
+        <i class="fas fa-history"></i>
+        <h2>Perjalanan Cinta Kita</h2>
+        <div class="header-line"></div>
+        <p class="section-subtitle">Setiap momen bersamamu adalah cerita indah</p>
+    </div>
+    
+    <!-- TIMELINE CONTAINER -->
+    <div class="timeline-container">
+        
+        <!-- ITEM 1: PERTAMA BERTEMU -->
+        <div class="timeline-item">
+            <div class="timeline-dot">
+                <i class="fas fa-heart"></i>
+            </div>
+            <div class="timeline-content">
+                <div class="timeline-date-badge">
+                    <span class="date">Pertama Bertemu</span>
+                </div>
+                <p>Hari dimana dunia terasa berbeda. Senyummu membuat hatiku bergetar.</p>
+                <div class="timeline-tag">
+                    <i class="fas fa-star"></i>
+                    <span>Momen Pertama</span>
+                </div>
+            </div>
+        </div>
+        
+        <!-- ITEM 2: PERTAMA JADIAN -->
+        <div class="timeline-item">
+            <div class="timeline-dot">
+                <i class="fas fa-heart"></i>
+            </div>
+            <div class="timeline-content">
+                <div class="timeline-date-badge">
+                    <span class="date">Pertama Jadian</span>
+                </div>
+                <p>Awal dari kisah indah kita. Hari Valentine yang tak terlupakan.</p>
+                <div class="timeline-tag">
+                    <i class="fas fa-heart"></i>
+                    <span>Valentine Day</span>
+                </div>
+            </div>
+        </div>
+        
+        <!-- ITEM 3: BULAN MADU -->
+        <div class="timeline-item">
+            <div class="timeline-dot">
+                <i class="fas fa-heart"></i>
+            </div>
+            <div class="timeline-content">
+                <div class="timeline-date-badge">
+                    <span class="date">Pantai Bersamamu</span>
+                </div>
+                <p>Liburan terindah bersamamu di pantai. Matahari terbenam jadi saksi cinta kita.</p>
+                <div class="timeline-tag">
+                    <i class="fas fa-umbrella-beach"></i>
+                    <span>Liburan</span>
+                </div>
+            </div>
+        </div>
+        
+        <!-- ITEM 4: HARI INI -->
+        <div class="timeline-item">
+            <div class="timeline-dot">
+                <i class="fas fa-heart"></i>
+            </div>
+            <div class="timeline-content">
+                <div class="timeline-date-badge">
+                    <span class="date">Hari Ini</span>
+                </div>
+                <p>Masih sama seperti dulu, aku cinta kamu. Lebih dari kemarin, kurang dari besok.</p>
+                <div class="timeline-tag">
+                    <i class="fas fa-infinity"></i>
+                    <span>Selamanya</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- TIMELINE FOOTER -->
+    <div class="timeline-footer">
+        <i class="fas fa-quote-left"></i>
+        <p>Dan masih banyak lagi cerita indah yang akan kita tulis bersama</p>
+        <i class="fas fa-quote-right"></i>
+    </div>
+</div>
+
+        <!-- 🕊️ LOVE MESSAGE CARDS -->
+<div class="message-cards" data-aos="flip-left" data-aos-duration="1200">
+    <div class="message-card">
+        <div class="card-icon">
+            <i class="fas fa-quote-right"></i>
+        </div>
+        <p>"you mean the world to me"</p>
+        <div class="card-footer">
+            <i class="fas fa-heart"></i>
+            <i class="fas fa-heart"></i>
+            <i class="fas fa-heart"></i>
+        </div>
+    </div>
+    
+    <div class="message-card">
+        <div class="card-icon">
+            <i class="fas fa-quote-right"></i>
+        </div>
+        <p>"i'm so gratiful to have you"</p>
+        <div class="card-footer">
+            <i class="fas fa-heart"></i>
+            <i class="fas fa-heart"></i>
+            <i class="fas fa-heart"></i>
+        </div>
+    </div>
+    
+    <div class="message-card">
+        <div class="card-icon">
+            <i class="fas fa-quote-right"></i>
+        </div>
+        <p>"every day with you feels special"</p>
+        <div class="card-footer">
+            <i class="fas fa-heart"></i>
+            <i class="fas fa-heart"></i>
+            <i class="fas fa-heart"></i>
+        </div>
+    </div>
+</div>
+
+<!-- 🌸 FINAL MESSAGE PREMIUM -->
+<div class="final-message" data-aos="zoom-out" data-aos-duration="1500">
+    <div class="message-box">
+        
+        <!-- Decorative Elements -->
+        <div class="box-decoration">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+        </div>
+        
+        <!-- Main Icon -->
+        <div class="message-icon">
+            <i class="fas fa-heart"></i>
+            <div class="icon-ring"></div>
+        </div>
+        
+        <!-- Main Title -->
+        <h2 class="final-title">I LOVE YOU</h2>
+        
+        <!-- Subtitle -->
+        <p class="final-subtitle">More than yesterday, less than tomorrow</p>
+        
+        <!-- Signature Line -->
+        <div class="signature-line">
+            <span class="signature-label">Forever Yours,</span>
+            <span class="final-signature">Panca Ferdian Pamungkas</span>
+        </div>
+        
+        <!-- Romantic Quote -->
+        <div class="romantic-quote">
+            <i class="fas fa-quote-left"></i>
+            <p>You're the reason I believe in true love</p>
+            <i class="fas fa-quote-right"></i>
+        </div>
+        
+        <!-- Floating Hearts -->
+        <div class="floating-hearts-mini">
+            <i class="fas fa-heart"></i>
+            <i class="fas fa-heart"></i>
+            <i class="fas fa-heart"></i>
+        </div>
+    </div>
+</div>
+
+<!-- 🎀 FOOTER ELEGAN PREMIUM -->
+<footer class="footer-premium">
+    <div class="footer-content">
+        
+        <!-- Animated Hearts -->
+        <div class="footer-heart-animation">
+            <i class="fas fa-heart"></i>
+            <i class="fas fa-heart"></i>
+            <i class="fas fa-heart"></i>
+            <i class="fas fa-heart"></i>
+            <i class="fas fa-heart"></i>
+        </div>
+        
+        <!-- Main Footer Content -->
+        <div class="footer-main">
+            <p class="footer-message">Made with <i class="fas fa-heart beating"></i> segenap cinta dan ketulusan hati</p>
+            
+            <div class="footer-quote-wrapper">
+                <i class="fas fa-quote-left"></i>
+                <p class="footer-quote">"Kamu adalah alasan aku percaya pada cinta sejati"</p>
+                <i class="fas fa-quote-right"></i>
+            </div>
+            
+            <div class="footer-couple">
+                <span class="name">Panca</span>
+                <i class="fas fa-infinity"></i>
+                <span class="name">Jelita</span>
+            </div>
+            
+            <p class="copyright">
+                <i class="far fa-copyright"></i> 2024 • Valentine Spesial untuk Jelita Restianty
+            </p>
+        </div>
+        
+        <!-- Footer Bottom Decoration -->
+        <div class="footer-decoration">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </div>
+</footer>
+
+<!-- 🌠 SURPRISE MODAL PREMIUM -->
+<div id="surpriseModal" class="modal-premium">
+    <div class="modal-content-premium">
+        
+        <!-- Close Button -->
+        <span class="close-modal" onclick="closeModal()">&times;</span>
+        
+        <!-- Modal Body -->
+        <div class="modal-body">
+            
+            <!-- Animated Icon -->
+            <div class="modal-icon-wrapper">
+                <div class="modal-icon">
+                    <i class="fas fa-heart"></i>
+                </div>
+                <div class="modal-icon-ring"></div>
+            </div>
+            
+            <!-- Title -->
+            <h2 class="modal-title">✨ SURPRISE! ✨</h2>
+            
+            <!-- Message -->
+            <p class="modal-message">Kamu adalah hadiah terindah dalam hidupku</p>
+            
+            <!-- Decorative Stars -->
+            <div class="modal-decoration">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+            </div>
+            
+            <!-- Love Message -->
+            <div class="modal-love-wrapper">
+                <i class="fas fa-heart"></i>
+                <p class="modal-love">I LOVE YOU JELITA</p>
+                <i class="fas fa-heart"></i>
+            </div>
+            
+            <!-- Romantic Line -->
+            <p class="modal-romantic">You mean everything to me</p>
+            
+            <!-- Action Button -->
+            <button class="modal-btn" onclick="createRainbowConfetti()">
+                <i class="fas fa-gift"></i>
+                <span>Klik untuk Kejutan!</span>
+                <i class="fas fa-heart"></i>
+            </button>
+            
+            <!-- Floating Particles -->
+            <div class="modal-particles">
+                <i class="fas fa-heart"></i>
+                <i class="fas fa-heart"></i>
+                <i class="fas fa-heart"></i>
+            </div>
+        </div>
+    </div>
+</div>
+
+    <!-- AUDIO PENJAGA HATI -->
+    <audio id="love-song" loop preload="auto">
+        <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-3.mp3" type="audio/mpeg">
+    </audio>
+
+    <!-- YOUTUBE FALLBACK -->
+    <iframe id="youtube-audio" style="display:none" width="0" height="0" frameborder="0" allow="autoplay; encrypted-media"></iframe>
+
+    <!-- SCRIPTS -->
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
